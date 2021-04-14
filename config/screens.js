@@ -1,13 +1,15 @@
 'use strict';
 
-const pxToRem = require('../util/pxToRem');
-
 const screens = {
-  'xs': pxToRem('375px'),
-  'sm': pxToRem('640px'),
-  'md': pxToRem('768px'),
-  'lg': pxToRem('1024px'),
-  'xl': pxToRem('1200px')
+  'xs': '375px',
+  'sm': '640px',
+  'md': '768px',
+  'lg': '1024px'
 }
 
-module.exports = { screens }
+// If not building for CDN add the XL breakpoint
+if (process.env.NODE_ENV != 'cdnBuild') {
+  screens['xl'] = '1200px'
+}
+
+module.exports = screens
