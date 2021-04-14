@@ -1,6 +1,6 @@
 {
   "name": "@aeries-design/adl-tailwind-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tailwind config for Aeries Design Language",
   "main": "index.js",
   "repository": "https://github.com/aeries-design/tailwind-config.git",
@@ -16,7 +16,8 @@
     "build": "export NODE_ENV=cdnBuild && tailwind build css/tailwind-import.css --config index.js -o dist/adl-tailwind.css",
     "compress": "csso dist/adl-tailwind.css --output dist/adl-tailwind.min.css --source-map file --no-restructure",
     "build:preview": "export NODE_ENV=cdnBuild && tailwind-config-viewer --config index.js export ./gh-preview",
-    "predeploy": "yarn build && yarn compress && yarn build:preview"
+    "predeploy": "yarn build && yarn compress && yarn build:preview",
+    "standard-version": "standard-version"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
