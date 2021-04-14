@@ -1,0 +1,8 @@
+# Editor Artifacts
+.vscode
+
+# Build Output
+dist
+
+# Dependencies
+node_modules
