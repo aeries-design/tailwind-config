@@ -1,5 +1,5 @@
 {
-  "name": "@aeries-adl/tailwind-config",
+  "name": "@aeries-design/adl-tailwind-config",
   "version": "1.0.0",
   "description": "Tailwind config for Aeries Design Language",
   "main": "index.js",
@@ -20,5 +20,8 @@
     "autoprefixer": "^10.2.5",
     "csso-cli": "^3.0.0",
     "tailwindcss": "^2.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

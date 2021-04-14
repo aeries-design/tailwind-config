@@ -1,4 +1,4 @@
-# `@aeries-adl/tailwind-config`
+# `@aeries-design/adl-tailwind-config`
 
 ## Installation
 
@@ -11,7 +11,7 @@ With imports from Tailwind CSS in place, you can leverage the ADL configuration 
 ```javascript
 // tailwind.config.js
 module.exports = {
-  presets: [require('@aeries-adl/tailwind-config')],
+  presets: [require('@aeries-design/adl-tailwind-config')],
 };
 ```
 
@@ -24,9 +24,9 @@ In situations where you do not want to setup the build pipeline  uses a command-
 For tools that allow you to include a pre-existing CSS file into your application, this package includes a pre-built version of the CSS file that you can import. For example, if you're using `gridsome create $project-name`, you could add the following to your `src/index.js`
 
 ```javascript
-import '@aeries-adl/tailwind-config/dist/adl-tailwind.css';
+import '@aeries-design/adl-tailwind-config/dist/adl-tailwind.css';
 // or the minified version
-import '@aeries-adl/tailwind-config/dist/adl-tailwind.min.css';
+import '@aeries-design/adl-tailwind-config/dist/adl-tailwind.min.css';
 ```
 and the tailwind classes will be made available to you.
 
@@ -37,7 +37,7 @@ If you want to go even _simpler_, you can link against the pre-built CSS file on
 ```html
 <link 
   rel="stylesheet" 
-  href="https://unpkg.com/@aeries-adl/tailwind-config/dist/adl-tailwind.min.css"
+  href="https://unpkg.com/@aeries-design/adl-tailwind-config/dist/adl-tailwind.min.css"
 >
 ```
 Note that with this approach you will _always_ get the latest version of Tailwind CSS -- even if there was a major version bump. See the `unpkg` documentation if you want to link against a specific version of the package.
