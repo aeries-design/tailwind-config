@@ -17,7 +17,8 @@
     "compress": "csso dist/adl-tailwind.css --output dist/adl-tailwind.min.css --source-map file --no-restructure",
     "build:preview": "export NODE_ENV=cdnBuild && tailwind-config-viewer --config index.js export ./gh-preview",
     "predeploy": "yarn build && yarn compress && yarn build:preview",
-    "standard-version": "standard-version"
+    "standard-version": "standard-version",
+    "publish": "git push --follow-tags origin master && npm publish"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
