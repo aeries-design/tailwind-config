@@ -1,6 +1,6 @@
 {
   "name": "@aeries-design/adl-tailwind-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tailwind config for Aeries Design Language",
   "main": "index.js",
   "repository": "https://github.com/aeries-design/tailwind-config.git",
