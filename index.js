@@ -1,6 +1,7 @@
 'use strict';
 
 const { ...colors } = require('./config/colors');
+const spacing = require('./config/spacing');
 const {
   boxShadow,
   fontFamily,
@@ -10,7 +11,6 @@ const {
   maxHeight,
   maxWidth,
   minHeight,
-  spacing,
   zIndex,
 } = require('./config/typography');
 

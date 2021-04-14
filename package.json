@@ -13,12 +13,18 @@
     "index.js"
   ],
   "scripts": {
-    "build": "tailwind build css/tailwind-import.css --config index.js -o dist/adl-tailwind.css",
-    "compress": "csso dist/adl-tailwind.css --output dist/adl-tailwind.min.css --source-map file --no-restructure"
+    "build": "export NODE_ENV=cdnBuild && tailwind build css/tailwind-import.css --config index.js -o dist/adl-tailwind.css",
+    "compress": "csso dist/adl-tailwind.css --output dist/adl-tailwind.min.css --source-map file --no-restructure",
+    "build:preview": "export NODE_ENV=cdnBuild && tailwind-config-viewer --config index.js export ./gh-preview",
+    "predeploy": "yarn build && yarn compress && yarn build:preview"
   },
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.2.5",
     "csso-cli": "^3.0.0",
+    "standard-version": "^9.2.0",
+    "tailwind-config-viewer": "^1.5.1"
+  },
+  "dependencies": {
     "tailwindcss": "^2.1.1"
   },
   "publishConfig": {
