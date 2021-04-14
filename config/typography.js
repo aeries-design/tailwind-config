@@ -8,11 +8,11 @@ const fontFamily = {
 }
 
 const fontWeight = {
-  'thin'        : 200,
-  'light'       : 300,
-  'medium'      : 400,
+  thin        : 200,
+  light       : 300,
+  medium      : 400,
   'semi-bold'   : 600,
-  'bold'        : 700,
+  bold        : 700,
   'extra-bold'  : 800
 }
 
@@ -75,17 +75,6 @@ const maxHeight = {
   '0': pxToRem('0'),
 }
 
-const spacing = {
-  '28': '7rem',
-  '72': '18rem',
-  '80': '20rem',
-  '82': '24rem',
-  '120': '30rem',
-  '160': '40rem',
-  '240': '60rem',
-  '320': '80rem'
-}
-
 const boxShadow = {
   'double-drop': '0px 4px 25px rgba(22, 43, 77, 0.11), 0px 4px 8px rgba(94, 109, 133, 0.04)'
 }
@@ -103,6 +92,5 @@ module.exports = {
   maxHeight,
   maxWidth,
   minHeight,
-  spacing,
   zIndex,
 }
