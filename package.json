@@ -1,6 +1,6 @@
 {
   "name": "@aeries-design/adl-tailwind-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tailwind config for Aeries Design Language",
   "main": "index.js",
   "repository": "https://github.com/aeries-design/tailwind-config.git",
@@ -23,13 +23,13 @@
     "publish": "git push --follow-tags origin master && npm publish ."
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.4.0",
     "csso-cli": "^3.0.0",
-    "standard-version": "^9.2.0",
-    "tailwind-config-viewer": "^1.5.1"
+    "standard-version": "^9.3.2",
+    "tailwind-config-viewer": "^1.6.2"
   },
   "dependencies": {
-    "tailwindcss": "^2.1.1"
+    "tailwindcss": "^2.2.19"
   },
   "publishConfig": {
     "access": "public"
