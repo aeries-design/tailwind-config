@@ -2301,9 +2301,9 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 tailwind-config-viewer@^1.6.2:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.6.3.tgz#cbd6ba6d4a6f063bb5023261dfaf3c05358cf8ba"
-  integrity sha512-XesuasyVLDXadHhLLDeS0H5EiAhhWnRPDjDRsP4sYRXGn8h7Vgnv9TzFXvoaNG6dvuRuwWQxJRfNOjaWid2V1g==
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.7.0.tgz#71d10c6ce31875fd4db742a90599ceeb2a385b63"
+  integrity sha512-wCc8CxkG3+E+XTt0ahZqGb7lNmqGE0sw6ErXY0t2i//qKp9QVZbynS6SW6UnL9no3g9hf1b1Nk8fixZTlqA9Jg==
   dependencies:
     "@koa/router" "^9.0.1"
     commander "^6.0.0"
